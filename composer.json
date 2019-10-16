@@ -1,0 +1,21 @@
+{
+  "name": "liz/swoole-yii2",
+  "description": "yii2 swoole",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lize",
+      "email": "li_ze3@dahuatech.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Myswoole\\Swoole\\": "src/"
+    }
+  }
+}
